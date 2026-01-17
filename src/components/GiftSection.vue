@@ -1,0 +1,531 @@
+<template>
+  <div id="bank" class="relative" data-aos="fade-up" data-aos-delay="100">
+    <div class="relative">
+      <div class="w-full relative bg-[#FBF7F5] md:bg-transparent">
+        <div class="absolute w-screen left-0 top-0 md:h-80" style="background: rgb(251, 247, 245);"></div>
+        
+        <img 
+          src="/assets/9.png" 
+          class="absolute bottom-[35%] -left-2 md:w-[260px] md:h-[305px] w-[100%] h-[133px] hidden md:block" 
+          loading="lazy"
+          alt="decoration"
+          style="opacity: 0; transform: translateX(-50px);"
+        >
+        <img 
+          src="/assets/8.png" 
+          class="absolute bottom-[35%] -right-2 md:w-[260px] md:h-[305px] w-[100%] h-[133px] hidden md:block" 
+          loading="lazy"
+          alt="decoration"
+          style="opacity: 0; transform: translateX(50px);"
+        >
+        
+        <div class="max-w-9xl mx-auto relative">
+          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center items-end pt-[72px] md:pt-[100px] h-auto md:gap-8">
+            <!-- Groom Bank Info (Desktop - Left) -->
+            <div class="hidden md:flex flex-col items-center md:items-end text-center md:text-right pb-8 md:pb-16 px-[15px]">
+              <h3 class="z-20 text-xl md:text-2xl font-prata mb-4 w-full md:text-right" style="color: rgb(161, 47, 12);">
+                <div class="relative">
+                  <div class="font-prata">Mừng cưới đến chú rể</div>
+                </div>
+              </h3>
+              
+              <div class="w-full flex flex-row items-center justify-end gap-6">
+                <div class="flex-shrink-0">
+                  <div class="overflow-hidden cursor-pointer w-[100px] h-[100px] object-cover relative z-1" style="padding: 0px;">
+                    <img 
+                      class="w-full h-full z-10 object-cover border-transparent" 
+                      alt="image-bank-groom" 
+                      src="/assets/z7427967410019_d58c52ece3ec9934e8b183dcfd6e98ec_1768319815_1234.webp" 
+                      loading="lazy" 
+                      draggable="false"
+                    >
+                  </div>
+                </div>
+                
+                <div class="flex flex-col items-start text-left gap-1">
+                  <div class="relative">
+                    <div class="font-prata">Ngân hàng Tp Bank</div>
+                  </div>
+                  <div class="relative">
+                    <div class="font-prata">Chú rể</div>
+                  </div>
+                  <div class="relative">
+                    <div class="font-prata">68101996211</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Center Image -->
+            <div class="relative md:w-[402px] mx-auto pt-0 md:pt-[72px] bg-[#FBF7F5] overflow-visible">
+              <div class="overflow-hidden cursor-pointer relative rounded-t-full border-2 md:w-[402px] w-[342px] h-[390px] md:h-[465px] object-cover mx-auto relative z-1" style="padding: 0px; border-color: rgb(161, 47, 12);">
+                <img 
+                  class="w-full h-full z-10 object-cover border-transparent" 
+                  alt="image-bank-bridge" 
+                  src="/assets/a143A1171_60x90_AL5B_1768319981_5178.webp" 
+                  loading="lazy" 
+                  draggable="false"
+                >
+              </div>
+            </div>
+            
+            <!-- Bride Bank Info (Right) -->
+            <div class="flex flex-col items-center md:items-start text-center md:text-left py-8 md:py-16 px-[15px]">
+              <h3 class="z-20 text-xl md:text-2xl font-prata mb-4 w-full text-center md:text-left" style="color: rgb(161, 47, 12);">
+                <div class="relative">
+                  <div class="font-prata">Mừng cưới đến cô dâu</div>
+                </div>
+              </h3>
+              
+              <div class="w-full flex flex-row items-center justify-center md:justify-start gap-6">
+                <div class="flex flex-col items-start text-left gap-1">
+                  <div class="relative">
+                    <div class="font-prata">Ngân hàng Techcombank</div>
+                  </div>
+                  <div class="relative">
+                    <div class="font-prata">Cô dâu</div>
+                  </div>
+                  <div class="relative">
+                    <div class="font-prata">19036736466010</div>
+                  </div>
+                </div>
+                
+                <div class="flex-shrink-0">
+                  <div class="overflow-hidden cursor-pointer w-[100px] h-[100px] object-cover relative z-1" style="padding: 0px;">
+                    <img 
+                      class="w-full h-full z-10 object-cover border-transparent" 
+                      alt="image-bank-bridge" 
+                      src="/assets/z7427970105949_baf0f26cb3ef4335f2aaa0af524392c6_1768319853_2500.webp" 
+                      loading="lazy" 
+                      draggable="false"
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- Desktop Title -->
+        <div class="py-[75px] text-center px-[15px] md:block hidden" style="background: rgb(251, 247, 245);">
+          <h2 class="text-[56px] md:text-[72px] font-pinyonScript italic" style="color: rgb(161, 47, 12);">Mừng cưới</h2>
+          <div class="mt-6 max-w-xl mx-auto text-center text-dark-200">
+            <div class="relative">
+              <div class="w-full">Nếu có thể, bạn hãy tới tham dự Đám cưới, chung vui và Mừng cưới trực tiếp cho chúng mình nhé ^^. Cảm ơn bạn rất nhiều!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'GiftSection'
+}
+</script>
+
+<style scoped>
+.relative {
+  position: relative;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.bg-\[#FBF7F5\] {
+  background-color: #FBF7F5;
+}
+
+.md\:bg-transparent {
+  @media (min-width: 768px) {
+    background-color: transparent;
+  }
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.md\:h-80 {
+  @media (min-width: 768px) {
+    height: 20rem;
+  }
+}
+
+.bottom-\[35\%\] {
+  bottom: 35%;
+}
+
+.-left-2 {
+  left: -0.5rem;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.md\:w-\[260px\] {
+  @media (min-width: 768px) {
+    width: 260px;
+  }
+}
+
+.md\:h-\[305px\] {
+  @media (min-width: 768px) {
+    height: 305px;
+  }
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.h-\[133px\] {
+  height: 133px;
+}
+
+.hidden {
+  display: none;
+}
+
+.md\:block {
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.max-w-9xl {
+  max-width: 90rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.md\:grid-cols-2 {
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.xl\:grid-cols-3 {
+  @media (min-width: 1280px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.pt-\[72px\] {
+  padding-top: 72px;
+}
+
+.md\:pt-\[100px\] {
+  @media (min-width: 768px) {
+    padding-top: 100px;
+  }
+}
+
+.h-auto {
+  height: auto;
+}
+
+.md\:gap-8 {
+  @media (min-width: 768px) {
+    gap: 2rem;
+  }
+}
+
+.block {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-\[48px\] {
+  font-size: 48px;
+}
+
+.md\:text-\[72px\] {
+  @media (min-width: 768px) {
+    font-size: 72px;
+  }
+}
+
+.font-pinyonScript {
+  font-family: 'Pinyon Script', cursive !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.text-dark-200 {
+  color: #333;
+}
+
+.md\:flex {
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.md\:items-end {
+  @media (min-width: 768px) {
+    align-items: flex-end;
+  }
+}
+
+.md\:text-right {
+  @media (min-width: 768px) {
+    text-align: right;
+  }
+}
+
+.md\:pb-16 {
+  @media (min-width: 768px) {
+    padding-bottom: 4rem;
+  }
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.md\:text-2xl {
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+.font-prata {
+  font-family: 'Prata', serif !important;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.md\:w-\[402px\] {
+  @media (min-width: 768px) {
+    width: 402px;
+  }
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.rounded-t-full {
+  border-radius: 50% 50% 0 0;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.w-\[342px\] {
+  width: 342px;
+}
+
+.h-\[390px\] {
+  height: 390px;
+}
+
+.md\:h-\[465px\] {
+  @media (min-width: 768px) {
+    height: 465px;
+  }
+}
+
+.h-full {
+  height: 100%;
+}
+
+.md\:items-start {
+  @media (min-width: 768px) {
+    align-items: flex-start;
+  }
+}
+
+.md\:text-left {
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.md\:py-16 {
+  @media (min-width: 768px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.md\:justify-start {
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+  }
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.py-\[75px\] {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.text-\[56px\] {
+  font-size: 56px;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+</style>
+
