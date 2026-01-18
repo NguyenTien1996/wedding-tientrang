@@ -20,7 +20,7 @@
           </div>
           
           <div class="relative mt-[41px] md:mt-14 max-w-[1054px] md:h-[500px] px-[12px] mx-auto mb-16 md:mb-0 h-[100%]">
-            <div class="overflow-hidden cursor-pointer z-30 absolute left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:right-4 w-full h-[220px] md:w-full md:h-full max-w-[350px] md:max-w-none border-[1px] rounded-tl-[100px] rounded-tr-[100px] md:rounded-tl-[263px] md:rounded-tr-[263px] border-red-800 z-1" style="padding: 0px;">
+            <div class="overflow-hidden cursor-pointer z-30 absolute left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:right-4 w-full md:w-full md:h-full max-w-[350px] md:max-w-none border-[1px] rounded-tl-[100px] rounded-tr-[100px] md:rounded-tl-[263px] md:rounded-tr-[263px] border-red-800 z-1" style="padding: 0px;height: 100%;">
               <img 
                 class="w-full h-full z-10 object-cover border-transparent" 
                 src="/assets/143A1768.jpg" 
@@ -375,4 +375,5 @@ export default {
   }
 }
 </style>
+
 

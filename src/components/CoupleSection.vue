@@ -3,25 +3,54 @@
     <div class="relative">
       <section class="relative mx-auto" style="background: rgb(251, 247, 245);">
         <div class="absolute left-0 top-0 w-full h-[574px]" style="background: rgb(251, 247, 245);">
-          <h1 class="hidden md:block absolute top-1/3 -left-[12%] text-[110px] font-prata rotate-90" style="color: rgb(244, 219, 206);">GROOM</h1>
+          <h1 class="hidden md:block absolute top-1/3 text-[110px] font-prata rotate-90" style="color: rgb(244, 219, 206);left: -9%;">GROOM</h1>
         </div>
         <div class="z-0 absolute right-0 bottom-0 w-[488px] h-[574px]" style="background: rgb(251, 247, 245);">
-          <h1 class="hidden md:block absolute top-1/3 -right-[40%] text-[110px] font-prata -rotate-90" style="color: rgb(244, 219, 206);">BRIDE</h1>
+          <h1 class="hidden md:block absolute top-1/3 text-[110px] font-prata -rotate-90" style="right: -32% ;color: rgb(244, 219, 206);">BRIDE</h1>
         </div>
         
-        <div class="z-20 grid md:grid-cols-2 justify-center items-center lg:px-[300px] gap-8 px-[15px] pb-[59px] pt-[50px]">
-          <!-- Groom -->
-          <div class="relative text-center mt-4 md:mt-0" data-aos="fade-right" data-aos-delay="100">
+        <div class="z-20 grid md:grid-cols-2 justify-center items-center lg:px-[300px] gap-8">
+         
+          
+          <!-- Bride -->
+          <div class="relative text-center" data-aos="fade-left" data-aos-delay="100">
             <img 
-              src="/assets/4.png" 
+              src="/assets/5.png" 
               class="md:block md:w-[206px] md:h-[209px] w-[150px] h-[150px] absolute bottom-20 md:-left-20 -left-12 z-10" 
               loading="lazy"
               alt="decoration"
             >
-            <div class="overflow-hidden cursor-pointer relative border-[1px] rounded-t-[300px] md:max-w-[500px] mx-auto block w-full max-w-[300px] h-[400px] md:h-[600px] z-1" style="border-color: rgb(161, 47, 12); padding: 0px;">
+            <div class="overflow-hidden cursor-pointer relative border-[1px] rounded-t-[300px] md:mt-0 mt-5 md:max-w-[500px] mx-auto block w-full h-[400px] md:h-[600px] z-1" style="border-color: rgb(161, 47, 12); padding: 0px;">
               <img 
                 class="w-full h-full z-10 object-cover border-transparent" 
-                src="/assets/man.webp" 
+                src="./../../public/assets/h143A1321.jpg" 
+                loading="lazy" 
+                draggable="false"
+                alt="Cô dâu"
+                style="transform: scale(1.2);"
+              >
+            </div>
+            <p class="text-lg md:text-2xl text-dark-200 font-prata mt-8">Cô dâu</p>
+            <div class="relative">
+              <div class="name-bride text-[56px] md:text-[72px] mt-3 font-pinyonScript" style="font-family: 'Pinyon Script', cursive; color: rgb(161, 47, 12);">
+                Huyền Trang
+              </div>
+            </div>
+          </div>
+
+           <!-- Groom -->
+           <div class="relative text-center mt-4 md:mt-0" data-aos="fade-right" data-aos-delay="100">
+            <img 
+              src="/assets/4.png" 
+              
+              class="md:block md:w-[206px] md:h-[209px] w-[150px] h-[150px] absolute bottom-20 md:-right-20 -right-12 z-10" 
+              loading="lazy"
+              alt="decoration"
+            >
+            <div class="overflow-hidden cursor-pointer relative border-[1px] rounded-t-[300px] md:max-w-[500px] mx-auto block w-full h-[400px] md:h-[600px] z-1" style="border-color: rgb(161, 47, 12); padding: 0px;">
+              <img 
+                class="w-full h-full z-10 object-cover border-transparent" 
+                src="./../../public/assets/men.jpg" 
                 loading="lazy" 
                 draggable="false"
                 alt="Chú rể"
@@ -31,31 +60,6 @@
             <div class="relative">
               <div class="name-groom text-[56px] md:text-[72px] mt-3 font-pinyonScript" style="font-family: 'Pinyon Script', cursive; color: rgb(161, 47, 12);">
                 Văn Tiến
-              </div>
-            </div>
-          </div>
-          
-          <!-- Bride -->
-          <div class="relative text-center" data-aos="fade-left" data-aos-delay="100">
-            <img 
-              src="/assets/5.png" 
-              class="md:block md:w-[206px] md:h-[209px] w-[150px] h-[150px] absolute bottom-20 md:-right-20 -right-12 z-10" 
-              loading="lazy"
-              alt="decoration"
-            >
-            <div class="overflow-hidden cursor-pointer relative border-[1px] rounded-t-[300px] md:mt-0 mt-5 md:max-w-[500px] mx-auto block w-full max-w-[300px] h-[400px] md:h-[600px] z-1" style="border-color: rgb(161, 47, 12); padding: 0px;">
-              <img 
-                class="w-full h-full z-10 object-cover border-transparent" 
-                src="/assets/women.webp" 
-                loading="lazy" 
-                draggable="false"
-                alt="Cô dâu"
-              >
-            </div>
-            <p class="text-lg md:text-2xl text-dark-200 font-prata mt-8">Cô dâu</p>
-            <div class="relative">
-              <div class="name-bride text-[56px] md:text-[72px] mt-3 font-pinyonScript" style="font-family: 'Pinyon Script', cursive; color: rgb(161, 47, 12);">
-                Huyền Trang
               </div>
             </div>
           </div>

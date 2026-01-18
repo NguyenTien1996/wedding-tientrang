@@ -1,6 +1,5 @@
 <template>
   <div class="app">
-    <MusicPlayer />
     <BannerSection />
     <CeremonySection />
     <CoupleSection />
@@ -15,7 +14,6 @@
 </template>
 
 <script>
-import MusicPlayer from './components/MusicPlayer.vue'
 import BannerSection from './components/BannerSection.vue'
 import CeremonySection from './components/CeremonySection.vue'
 import CoupleSection from './components/CoupleSection.vue'
@@ -30,7 +28,6 @@ import FooterSection from './components/FooterSection.vue'
 export default {
   name: 'App',
   components: {
-    MusicPlayer,
     BannerSection,
     CeremonySection,
     CoupleSection,
@@ -48,7 +45,6 @@ export default {
 <style scoped>
 .app {
   width: 100%;
-  overflow-x: hidden;
 }
 </style>
 

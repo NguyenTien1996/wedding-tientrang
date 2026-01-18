@@ -35,7 +35,7 @@
                     <img 
                       class="w-full h-full z-10 object-cover border-transparent" 
                       alt="image-bank-groom" 
-                      src="/assets/z7427967410019_d58c52ece3ec9934e8b183dcfd6e98ec_1768319815_1234.webp" 
+                      src="./../../public/assets/qr1.png" 
                       loading="lazy" 
                       draggable="false"
                     >
@@ -77,7 +77,7 @@
                 </div>
               </h3>
               
-              <div class="w-full flex flex-row items-center justify-center md:justify-start gap-6">
+              <div class="w-full flex flex-row items-center justify-start md:justify-start gap-6">
                 <div class="flex flex-col items-start text-left gap-1">
                   <div class="relative">
                     <div class="font-prata">Ngân hàng Techcombank</div>
@@ -95,7 +95,7 @@
                     <img 
                       class="w-full h-full z-10 object-cover border-transparent" 
                       alt="image-bank-bridge" 
-                      src="/assets/z7427970105949_baf0f26cb3ef4335f2aaa0af524392c6_1768319853_2500.webp" 
+                      src="./../../public/assets/qr2.png" 
                       loading="lazy" 
                       draggable="false"
                     >
@@ -528,4 +528,5 @@ export default {
   margin-top: 1.5rem;
 }
 </style>
+
 

@@ -23,9 +23,9 @@
           </div>
           
           <div class="flex flex-col relative">
-            <div class="hidden md:block absolute w-2/4 h-1 left-1/4 top-[56%] z-0" style="background: rgb(161, 47, 12);"></div>
+            <div class="hidden md:block absolute w-2/4 h-1 left-1/4 z-0" style="background: rgb(161, 47, 12); top: 42%"></div>
             
-            <div class="flex flex-col md:flex-row relative gap-[125px] md:gap-0 justify-evenly">
+            <div class="flex flex-col md:flex-row relative gap-[125px] md:gap-0 justify-evenly" style="padding-bottom: 100px;">
               <div v-for="(event, index) in events" :key="index" class="relative">
                 <div class="z-20 flex-1 flex flex-col justify-center items-center gap-[34px]">
                   <img :src="event.icon" class="w-[110px] h-[110px]" loading="lazy" :alt="event.name">
@@ -54,9 +54,9 @@
                   </div>
                 </div>
                 
-                <div class="ask-selection flex bg-transparent w-[200px] !bottom-[-65px]">
+                <div class="ask-selection flex bg-transparent w-[200px]" style="bottom: -65px;">
                   <div class="ask-option" style="background-color: rgb(161, 47, 12);">
-                    <a href="#" class="uppercase text-[#EEDED1] px-2 py-2 font-bold text-base w-full md:w-[150px] pointer-events-none opacity-50" aria-disabled="true">
+                    <a :href="event.mapLink" target="_blank" class="uppercase text-[#EEDED1] px-2 py-2 font-bold text-base w-full md:w-[150px] opacity-50">
                       <span style="color: rgb(255, 255, 255);">Chỉ đường</span>
                     </a>
                   </div>
@@ -88,6 +88,7 @@ export default {
           month: '1',
           year: '2024',
           location: 'Ngõ 1, TDP Ninh Sơn, Phường Chương Mỹ, Hà Nội',
+          mapLink: 'https://maps.app.goo.gl/AffKAnCaj35B5yXi7',
           icon: '/assets/eventIcon1.png'
         },
         {
@@ -97,6 +98,7 @@ export default {
           month: '1',
           year: '2026',
           location: 'Ngõ 1, TDP Ninh Sơn, Phường Chương Mỹ, Hà Nội',
+          mapLink: 'https://maps.app.goo.gl/AffKAnCaj35B5yXi7',
           icon: '/assets/eventIcon2.png'
         },
         {
@@ -106,6 +108,7 @@ export default {
           month: '1',
           year: '2026',
           location: 'Xóm 1, TDP Ninh Sơn, Phường Chương Mỹ, Hà Nội',
+          mapLink: 'https://maps.app.goo.gl/qTaKAzTsf2MF4PfP7',
           icon: '/assets/eventIcon3.png'
         }
       ]
@@ -414,15 +417,30 @@ export default {
 }
 
 .ask-selection {
-  display: flex;
-  background-color: transparent;
-  width: 200px;
-  bottom: -65px;
-  position: relative;
+    position: absolute;
+    bottom: 0%;
+    transform: none;
+    background: transparent;
+    border: none;
+    width: 400px;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 40px;
 }
 
 .ask-option {
   flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.ask-option button {
+  height: 100%;
 }
 
 .px-2 {

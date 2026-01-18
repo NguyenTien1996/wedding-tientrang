@@ -123,3 +123,4 @@ app.listen(PORT, () => {
   console.log(`🚀 Backend server đang chạy tại http://localhost:${PORT}`);
   console.log(`📁 Dữ liệu được lưu tại: ${GUESTBOOK_FILE}`);
 });
+
