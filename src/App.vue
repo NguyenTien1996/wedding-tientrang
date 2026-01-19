@@ -5,7 +5,6 @@
     <CoupleSection />
     <PhotoAlbumSection />
     <LoveStorySection />
-    <MilestonesSection />
     <EventsSection />
     <GuestbookSection />
     <GiftSection />

@@ -20,7 +20,7 @@
               loading="lazy"
               alt="decoration"
             >
-            <div class="overflow-hidden cursor-pointer relative border-[1px] rounded-t-[300px] md:mt-0 mt-5 md:max-w-[500px] mx-auto block w-full h-[400px] md:h-[600px] z-1" style="border-color: rgb(161, 47, 12); padding: 0px;">
+            <div class="overflow-hidden cursor-pointer relative border-[1px] rounded-t-[300px] md:mt-0 mt-5 md:max-w-[500px] mx-auto block w-full h-[400px] md:h-[600px] z-1" style="border-color: rgb(161, 47, 12); padding: 0px;border-style: solid;">
               <img 
                 class="w-full h-full z-10 object-cover border-transparent" 
                 src="./../../public/assets/h143A1321.jpg" 
@@ -47,7 +47,7 @@
               loading="lazy"
               alt="decoration"
             >
-            <div class="overflow-hidden cursor-pointer relative border-[1px] rounded-t-[300px] md:max-w-[500px] mx-auto block w-full h-[400px] md:h-[600px] z-1" style="border-color: rgb(161, 47, 12); padding: 0px;">
+            <div class="overflow-hidden cursor-pointer relative border-[1px] rounded-t-[300px] md:max-w-[500px] mx-auto block w-full h-[400px] md:h-[600px] z-1" style="border-color: rgb(161, 47, 12); padding: 0px;border-style: solid;">
               <img 
                 class="w-full h-full z-10 object-cover border-transparent" 
                 src="./../../public/assets/men.jpg" 

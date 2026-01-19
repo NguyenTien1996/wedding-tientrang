@@ -58,7 +58,7 @@
             
             <!-- Center Image -->
             <div class="relative md:w-[402px] mx-auto pt-0 md:pt-[72px] bg-[#FBF7F5] overflow-visible">
-              <div class="overflow-hidden cursor-pointer relative rounded-t-full border-2 md:w-[402px] w-[342px] h-[390px] md:h-[465px] object-cover mx-auto relative z-1" style="padding: 0px; border-color: rgb(161, 47, 12);">
+              <div class="overflow-hidden cursor-pointer relative rounded-t-full border-2 md:w-[402px] h-[390px] md:h-[465px] object-cover mx-auto relative z-1" style="padding: 0px; border-color: rgb(161, 47, 12);">
                 <img 
                   class="w-full h-full z-10 object-cover border-transparent" 
                   alt="image-bank-bridge" 
@@ -452,6 +452,7 @@ export default {
 }
 
 .border-2 {
+  border-style: solid;
   border-width: 2px;
 }
 

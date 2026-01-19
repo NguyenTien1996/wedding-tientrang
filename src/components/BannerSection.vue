@@ -57,7 +57,7 @@
             <div class="flex items-end pl-5 justify-between md:justify-center">
               <!-- Main photo container -->
               <div class="relative w-[223px] h-[261px] md:w-[497px] md:h-[600px]">
-                <div class="overflow-hidden cursor-pointer absolute w-full h-full z-20 p-0 rounded-t-full border-[1px]" style="border-color: rgb(161, 47, 12); padding: 0px;">
+                <div class="overflow-hidden cursor-pointer absolute w-full h-full z-20 p-0 rounded-t-full border-[1px]" style="border-color: rgb(161, 47, 12); padding: 0px; border-style: solid;">
                   <img 
                     class="w-full h-full z-10 object-cover border-transparent" 
                     src="/assets/a143A1171_60x90_AL5B_1768320020_1589.webp" 
@@ -72,7 +72,7 @@
               
               <!-- Secondary photo -->
               <div class="relative w-[134px] h-[158px] md:w-[297px] md:h-[349px] z-30 -translate-x-20">
-                <div class="overflow-hidden cursor-pointer absolute w-full h-full z-20 rounded-t-full border-[2px] p-0" style="border-color: rgb(161, 47, 12); padding: 0px;">
+                <div class="overflow-hidden cursor-pointer absolute w-full h-full z-20 rounded-t-full border-[2px] p-0" style="border-color: rgb(161, 47, 12); padding: 0px;border-style: solid;">
                   <img 
                     class="w-full h-full z-10 object-cover border-transparent" 
                     src="/assets/c143A1672_1768320037_1140.webp" 
