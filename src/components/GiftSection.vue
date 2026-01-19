@@ -34,8 +34,8 @@
                   <div class="overflow-hidden cursor-pointer w-[100px] h-[100px] object-cover relative z-1" style="padding: 0px;">
                     <img 
                       class="w-full h-full z-10 object-cover border-transparent" 
-                      alt="image-bank-groom" 
-                      src="/assets/qr1.png" 
+                      alt="image-bank-groom"  
+                      :src="qr1" 
                       loading="lazy" 
                       draggable="false"
                     >
@@ -95,7 +95,7 @@
                     <img 
                       class="w-full h-full z-10 object-cover border-transparent" 
                       alt="image-bank-bridge" 
-                      src="/assets/qr2.png" 
+                      :src="qr2" 
                       loading="lazy" 
                       draggable="false"
                     >
@@ -122,8 +122,16 @@
 </template>
 
 <script>
+import qr1 from '/assets/qr1.png';
+import qr2 from '/assets/qr2.png';
 export default {
-  name: 'GiftSection'
+  name: 'GiftSection',
+  data() {
+    return {
+      qr1,
+      qr2
+    }
+  }
 }
 </script>
 
