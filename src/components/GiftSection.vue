@@ -35,7 +35,7 @@
                     <img 
                       class="w-full h-full z-10 object-cover border-transparent" 
                       alt="image-bank-groom" 
-                      src="./../../public/assets/qr1.png" 
+                      src="/assets/qr1.png" 
                       loading="lazy" 
                       draggable="false"
                     >
@@ -95,7 +95,7 @@
                     <img 
                       class="w-full h-full z-10 object-cover border-transparent" 
                       alt="image-bank-bridge" 
-                      src="./../../public/assets/qr2.png" 
+                      src="/assets/qr2.png" 
                       loading="lazy" 
                       draggable="false"
                     >
