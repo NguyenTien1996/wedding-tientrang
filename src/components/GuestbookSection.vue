@@ -7,14 +7,12 @@
           class="absolute top-0 left-0 md:w-[429px] md:h-[363px] w-[179px] h-[151px]" 
           loading="lazy"
           alt="decoration"
-          style="opacity: 0; transform: translateX(-50px);"
         >
         <img 
           src="/assets/watercolor-boho-card-with-hand-painted-tropical-orchid-flowers-dried-palm-leaves-branches-pampas-flowers-illustration 2.png" 
           class="absolute bottom-0 right-0 md:w-[429px] md:mb-18 md:h-[363px] w-[179px] h-[151px]" 
           loading="lazy"
           alt="decoration"
-          style="opacity: 0; transform: translateX(50px);"
         >
         
         <section class="z-1 relative max-w-[1443px] mx-auto overflow-hidden flex flex-col justify-center items-center pt-[56px] pl-[18px] pr-[24px] lg:pt-[164px] lg:pl-[304px] lg:pr-[302px]">

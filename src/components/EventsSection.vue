@@ -7,14 +7,12 @@
           class="absolute -top-0 -left-0 md:w-[280px] md:h-[356px] w-[199px] h-[208px]" 
           loading="lazy"
           alt="decoration"
-          style="opacity: 0; transform: translateX(-50px);"
         >
         <img 
           src="/assets/right.png" 
           class="absolute -bottom-0 -right-0 md:w-[280px] md:h-[356px] w-[199px] h-[208px]" 
           loading="lazy"
           alt="decoration"
-          style="opacity: 0; transform: translateX(50px);"
         >
         
         <div class="max-w-9xl mx-auto py-[95px] w-full">
