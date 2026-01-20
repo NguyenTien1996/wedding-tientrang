@@ -122,14 +122,12 @@
 </template>
 
 <script>
-import qr1 from '/assets/qr1.png';
-import qr2 from '/assets/qr2.png';
 export default {
   name: 'GiftSection',
   data() {
     return {
-      qr1,
-      qr2
+      qr1: '/assets/qr1.png',
+      qr2: '/assets/qr2.png'
     }
   }
 }
