@@ -34,7 +34,7 @@
           <div class="max-w-[1443px] mx-auto">
             <div class="relative">
               <div class="invitation-time text-2xl md:text-[32px] leading-[44px] font-prata">
-                17:00, Thứ 4
+                17:30, Thứ 4
               </div>
             </div>
             
