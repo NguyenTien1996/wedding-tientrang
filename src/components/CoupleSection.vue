@@ -13,7 +13,7 @@
          
           
           <!-- Bride -->
-          <div class="relative text-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="relative text-center" data-aos="fade-left" data-aos-delay="100" style="max-width: 85%;margin: auto;">
             <img 
               src="/assets/5.png" 
               class="md:block md:w-[206px] md:h-[209px] w-[150px] h-[150px] absolute bottom-20 md:-left-20 -left-12 z-10" 
@@ -39,7 +39,7 @@
           </div>
 
            <!-- Groom -->
-           <div class="relative text-center mt-4 md:mt-0" data-aos="fade-right" data-aos-delay="100">
+           <div class="relative text-center mt-4 md:mt-0" data-aos="fade-right" data-aos-delay="100" style="max-width: 80%;margin: auto;">
             <img 
               src="/assets/4.png" 
               
