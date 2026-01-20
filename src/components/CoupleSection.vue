@@ -39,7 +39,7 @@
           </div>
 
            <!-- Groom -->
-           <div class="relative text-center mt-4 md:mt-0" data-aos="fade-right" data-aos-delay="100" style="max-width: 80%;margin: auto;">
+           <div class="relative text-center mt-4 md:mt-0" data-aos="fade-right" data-aos-delay="100" style="max-width: 90%;margin: auto;">
             <img 
               src="/assets/4.png" 
               

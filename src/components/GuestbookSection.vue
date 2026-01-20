@@ -328,6 +328,10 @@ export default {
 
 .min-h-\[912px\] {
   min-height: 912px;
+  @media (max-width: 768px) {
+    min-height: initial;
+    margin-bottom: 30px;
+  }
 }
 
 .grid {
