@@ -32,7 +32,7 @@
 
           <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center items-end pt-[40px] md:pt-[100px] h-auto md:gap-8 gap-6">
             <!-- Groom Bank Info -->
-            <div class="flex flex-col items-center md:items-end text-center md:text-right pb-6 md:pb-16 px-[15px] order-2 md:order-1">
+            <div class="flex flex-col items-center md:items-end text-center md:text-right pb-6 md:pb-16 px-[15px] order-1 md:order-1">
               <h3 class="z-20 text-lg md:text-2xl font-prata mb-3 md:mb-4 w-full md:text-right" style="color: rgb(161, 47, 12);">
                 <div class="relative">
                   <div class="font-prata">Mừng cưới đến chú rể</div>
@@ -67,7 +67,7 @@
             </div>
             
             <!-- Center Image -->
-            <div class="relative w-full md:w-[402px] mx-auto pt-0 md:pt-[72px] bg-[#FBF7F5] overflow-visible order-1 md:order-2">
+            <div class="relative w-full md:w-[402px] mx-auto pt-0 md:pt-[72px] bg-[#FBF7F5] overflow-visible order-3 md:order-2">
               <div class="overflow-hidden cursor-pointer relative rounded-t-full border-2 w-[300px] md:w-[402px] h-[355px] md:h-[465px] object-cover mx-auto relative z-1" style="padding: 0px; border-color: rgb(161, 47, 12);max-width: 90%;margin: auto;">
                 <img 
                   class="w-full h-full z-10 object-cover border-transparent" 
@@ -80,7 +80,7 @@
             </div>
             
             <!-- Bride Bank Info -->
-            <div class="flex flex-col items-center md:items-start text-center md:text-left py-6 md:py-16 px-[15px] order-3">
+            <div class="flex flex-col items-center md:items-start text-center md:text-left py-6 md:py-16 px-[15px] order-2 md:order-3">
               <h3 class="z-20 text-lg md:text-2xl font-prata mb-3 md:mb-4 w-full text-center md:text-left" style="color: rgb(161, 47, 12);">
                 <div class="relative">
                   <div class="font-prata">Mừng cưới đến cô dâu</div>
