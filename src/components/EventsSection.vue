@@ -86,7 +86,7 @@ export default {
           time: '09:00 AM',
           day: '28',
           month: '1',
-          year: '2024',
+          year: '2026',
           location: 'Ngõ 1, TDP Ninh Sơn, Phường Chương Mỹ, Hà Nội',
           mapLink: 'https://maps.app.goo.gl/AffKAnCaj35B5yXi7',
           icon: '/assets/eventIcon1.png'

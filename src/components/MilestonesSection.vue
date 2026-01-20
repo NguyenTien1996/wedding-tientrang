@@ -76,7 +76,7 @@ export default {
           text: 'Mỗi lời chúc phúc và sự hiện diện của bạn trong ngày đặc biệt này chính là món quà vô giá với chúng tôi. Hãy cùng chúng tôi tận hưởng niềm vui, tiếng cười và sự ấm áp trong ngày hạnh phúc nhất này!',
           day: '18',
           month: '09',
-          year: '2024',
+          year: '2026',
           image: '/assets/picture8.webp'
         },
         {
