@@ -19,7 +19,7 @@
           style="opacity: 0; transform: translateX(50px);"
         >
         
-        <div class="max-w-9xl mx-auto relative">
+        <div class="max-w-7xl mx-auto relative">
           <!-- Mobile Title -->
           <div class="py-8 text-center px-[15px] md:hidden">
             <h2 class="text-[40px] font-pinyonScript italic" style="color: rgb(161, 47, 12);">Mừng cưới</h2>
@@ -32,16 +32,16 @@
 
           <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center items-end pt-[40px] md:pt-[100px] h-auto md:gap-8 gap-6">
             <!-- Groom Bank Info -->
-            <div class="flex flex-col items-center md:items-end text-center md:text-right pb-6 md:pb-16 px-[15px] order-1 md:order-1">
-              <h3 class="z-20 text-lg md:text-2xl font-prata mb-3 md:mb-4 w-full md:text-right" style="color: rgb(161, 47, 12);">
+            <div class="flex flex-col items-center md:items-end text-center md:text-center pb-6 md:pb-16 px-[15px] order-1 md:order-1 ">
+              <h3 class="z-20 text-lg md:text-2xl font-prata mb-3 md:mb-4 w-full md:text-center" style="color: rgb(161, 47, 12);">
                 <div class="relative">
                   <div class="font-prata">Mừng cưới đến chú rể</div>
                 </div>
               </h3>
               
-              <div class="w-full flex flex-row items-center justify-center md:justify-end gap-4 md:gap-6">
+              <div class="w-full flex flex-col items-center md:items-end gap-4 md:gap-6">
                 <div class="flex-shrink-0">
-                  <div class="overflow-hidden cursor-pointer w-[90px] h-[90px] md:w-[100px] md:h-[100px] object-cover relative z-1 rounded-lg" style="padding: 0px;">
+                  <div class="overflow-hidden cursor-pointer w-[100px] h-[100px] md:w-[130px] md:h-[130px] object-cover relative z-1 rounded-lg" style="padding: 0px;">
                     <img 
                       class="w-full h-full z-10 object-cover border-transparent" 
                       alt="image-bank-groom"  
@@ -52,7 +52,7 @@
                   </div>
                 </div>
                 
-                <div class="flex flex-col items-start text-left gap-1">
+                <div class="flex flex-col items-center md:items-end text-center md:text-right gap-1">
                   <div class="relative">
                     <div class="font-prata text-sm md:text-base">Ngân hàng Tp Bank</div>
                   </div>
@@ -81,14 +81,26 @@
             
             <!-- Bride Bank Info -->
             <div class="flex flex-col items-center md:items-start text-center md:text-left py-6 md:py-16 px-[15px] order-2 md:order-3">
-              <h3 class="z-20 text-lg md:text-2xl font-prata mb-3 md:mb-4 w-full text-center md:text-left" style="color: rgb(161, 47, 12);">
+              <h3 class="z-20 text-lg md:text-2xl font-prata mb-3 md:mb-4 w-full text-center md:text-center" style="color: rgb(161, 47, 12);">
                 <div class="relative">
                   <div class="font-prata">Mừng cưới đến cô dâu</div>
                 </div>
               </h3>
               
-              <div class="w-full flex flex-row items-center justify-center md:justify-start gap-4 md:gap-6">
-                <div class="flex flex-col items-start text-left gap-1">
+              <div class="w-full flex flex-col items-center md:items-start gap-4 md:gap-6">
+                <div class="flex-shrink-0">
+                  <div class="overflow-hidden cursor-pointer w-[100px] h-[100px] md:w-[130px] md:h-[130px] object-cover relative z-1 rounded-lg" style="padding: 0px;">
+                    <img 
+                      class="w-full h-full z-10 object-cover border-transparent" 
+                      alt="image-bank-bridge" 
+                      :src="qr2" 
+                      loading="lazy" 
+                      draggable="false"
+                    >
+                  </div>
+                </div>
+                
+                <div class="flex flex-col items-center md:items-start text-center md:text-left gap-1">
                   <div class="relative">
                     <div class="font-prata text-sm md:text-base">Ngân hàng Techcombank</div>
                   </div>
@@ -97,18 +109,6 @@
                   </div>
                   <div class="relative">
                     <div class="font-prata text-xs md:text-base break-all">19036736466010</div>
-                  </div>
-                </div>
-                
-                <div class="flex-shrink-0">
-                  <div class="overflow-hidden cursor-pointer w-[90px] h-[90px] md:w-[100px] md:h-[100px] object-cover relative z-1 rounded-lg" style="padding: 0px;">
-                    <img 
-                      class="w-full h-full z-10 object-cover border-transparent" 
-                      alt="image-bank-bridge" 
-                      :src="qr2" 
-                      loading="lazy" 
-                      draggable="false"
-                    >
                   </div>
                 </div>
               </div>
@@ -228,6 +228,10 @@ export default {
 
 .max-w-9xl {
   max-width: 90rem;
+}
+
+.max-w-7xl {
+  max-width: 70rem;
 }
 
 .mx-auto {
@@ -585,6 +589,27 @@ export default {
 .text-\[40px\] {
   font-size: 40px;
 }
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.md\:w-\[130px\] {
+  @media (min-width: 768px) {
+    width: 130px;
+  }
+}
+
+.md\:h-\[130px\] {
+  @media (min-width: 768px) {
+    height: 130px;
+  }
+}
+
 
 .w-\[280px\] {
   width: 280px;
