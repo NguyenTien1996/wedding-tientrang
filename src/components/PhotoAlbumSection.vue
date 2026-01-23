@@ -1,5 +1,5 @@
 <template>
-  <div id="album" class="relative" data-aos="fade-up" data-aos-delay="200">
+  <div id="album" class="relative">
     <div class="relative">
       <div class="relative max-w-9xl mx-auto py-12 md:py-[72px] px-4 md:px-0">
         <div class="relative">
@@ -8,7 +8,7 @@
           </div>
         </div>
         
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 album-image" data-aos="fade-up" data-aos-delay="200">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 album-image" >
           <div v-for="(photo, index) in visiblePhotos" :key="index" :class="{ 'hidden': index >= 6 && !showAll }">
             <a :href="photo.full" @click.prevent="openLightbox(index)">
               <img 
@@ -350,6 +350,9 @@ button:hover {
   max-width: 90%;
   max-height: 90%;
   object-fit: contain;
+  object-position: center;
+  margin: auto;
+  display: block;
 }
 
 .lightbox-close {
