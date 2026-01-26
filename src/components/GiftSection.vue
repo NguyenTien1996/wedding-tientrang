@@ -45,7 +45,7 @@
                     <img 
                       class="w-full h-full z-10 object-cover border-transparent" 
                       alt="image-bank-groom"  
-                      :src="qr1" 
+                      :src="qr3" 
                       loading="lazy" 
                       draggable="false"
                     >
@@ -54,13 +54,13 @@
                 
                 <div class="flex flex-col items-center md:items-end text-center md:text-right gap-1">
                   <div class="relative">
-                    <div class="font-prata text-sm md:text-base">Ngân hàng Tp Bank</div>
+                    <div class="font-prata text-sm md:text-base">Ngân hàng VPBank</div>
                   </div>
                   <div class="relative">
                     <div class="font-prata text-sm md:text-base">Chú rể</div>
                   </div>
                   <div class="relative">
-                    <div class="font-prata text-xs md:text-base break-all">68101996211</div>
+                    <div class="font-prata text-s md:text-base break-all">12101996688</div>
                   </div>
                 </div>
               </div>
@@ -108,7 +108,7 @@
                     <div class="font-prata text-sm md:text-base">Cô dâu</div>
                   </div>
                   <div class="relative">
-                    <div class="font-prata text-xs md:text-base break-all">19036736466010</div>
+                    <div class="font-prata text-s md:text-base break-all">19036736466010</div>
                   </div>
                 </div>
               </div>
@@ -137,7 +137,8 @@ export default {
   data() {
     return {
       qr1: '/assets/qr1.png',
-      qr2: '/assets/qr2.png'
+      qr2: '/assets/qr2.png',
+      qr3: '/assets/qr3.png',
     }
   }
 }
